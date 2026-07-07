@@ -11,12 +11,6 @@
       "caption": "Сладкое к кофе и с собой",
       "src": "assets/img/photos/dessert-latte.jpg",
       "fallback": "assets/img/fallback/dessert.svg"
-    },
-    {
-      "title": "Витрина кафе",
-      "caption": "Готовые блюда, закуски и десерты",
-      "src": "assets/img/photos/menu-showcase.jpg",
-      "fallback": "assets/img/fallback/sign.svg"
     }
   ]
 }
