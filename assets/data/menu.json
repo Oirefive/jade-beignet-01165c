@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "category": "Пицца 30 см",
     "title": "Пицца куриная с грибами",
@@ -268,5 +268,15 @@
     "image": "assets/img/photos/dessert-latte.jpg",
     "fallback": "assets/img/fallback/dessert.svg",
     "badge": "десерт"
+  },
+  {
+    "category": "Пицца 30 см",
+    "title": "Пицца МЕГА СЫР",
+    "price": "уточняйте",
+    "weight": "1 шт.",
+    "description": "Сырная пицца с насыщенной сырной начинкой.",
+    "image": "assets/img/photos/Pitstsa-MEGA-SYR.jpg",
+    "fallback": "assets/img/fallback/pizza.svg",
+    "badge": "пицца"
   }
 ]
