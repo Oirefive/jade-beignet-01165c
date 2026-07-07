@@ -5,7 +5,7 @@
     "price": "630 ₽",
     "weight": "1 шт.",
     "description": "",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/pitstsa-kurinaya-s-gribami.jpg",
     "fallback": "assets/img/fallback/pizza.svg",
     "badge": "пицца"
   },
@@ -15,7 +15,7 @@
     "price": "570 ₽",
     "weight": "1 шт.",
     "description": "",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/pitstsa-s-bekonom-i-provanskimi-travami.jpg",
     "fallback": "assets/img/fallback/pizza.svg",
     "badge": "пицца"
   },
@@ -25,7 +25,7 @@
     "price": "830 ₽",
     "weight": "1 шт.",
     "description": "",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/pitstsa-s-moreproduktami.jpg",
     "fallback": "assets/img/fallback/pizza.svg",
     "badge": "пицца"
   },
@@ -35,7 +35,7 @@
     "price": "120 ₽",
     "weight": "3 шт.",
     "description": "",
-    "image": "assets/img/photos/dessert-latte.jpg",
+    "image": "assets/img/photos/products/eklery.jpg",
     "fallback": "assets/img/fallback/dessert.svg",
     "badge": "десерт"
   },
@@ -45,7 +45,7 @@
     "price": "185 ₽",
     "weight": "150 г",
     "description": "",
-    "image": "assets/img/photos/dessert-latte.jpg",
+    "image": "assets/img/photos/products/tort-napoleon.jpg",
     "fallback": "assets/img/fallback/dessert.svg",
     "badge": "десерт"
   },
@@ -55,7 +55,7 @@
     "price": "600 ₽",
     "weight": "300 мл",
     "description": "Том Ям по рецепту одобренному Мишленовской звездой",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/tom-yam.jpg",
     "fallback": "assets/img/fallback/soup.svg",
     "badge": "первое"
   },
@@ -65,7 +65,7 @@
     "price": "260 ₽",
     "weight": "250 мл",
     "description": "Наш борщ приготовлен на экологически чистых продуктах имеет насыщенный и наваристый вкус",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/borsch-s-hlebom-i-smetanoy.jpg",
     "fallback": "assets/img/fallback/soup.svg",
     "badge": "первое"
   },
@@ -75,7 +75,7 @@
     "price": "590 ₽",
     "weight": "8 шт.",
     "description": "Роллы",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/roll-morskoy.jpg",
     "fallback": "assets/img/fallback/rolls.svg",
     "badge": "роллы"
   },
@@ -85,7 +85,7 @@
     "price": "550 ₽",
     "weight": "8 шт.",
     "description": "Ролл Калифорния",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/roll-kaliforniya.jpg",
     "fallback": "assets/img/fallback/rolls.svg",
     "badge": "роллы"
   },
@@ -95,7 +95,7 @@
     "price": "390 ₽",
     "weight": "8 шт.",
     "description": "Рол цезарь в хрустящей панировке",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/rol-tsezar-s-kuritsey-tempura.jpg",
     "fallback": "assets/img/fallback/rolls.svg",
     "badge": "роллы"
   },
@@ -105,7 +105,7 @@
     "price": "590 ₽",
     "weight": "8 шт.",
     "description": "Рол морской запечённый ( креветки.мидии)",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/rol-morskoy-zapechennyy.jpg",
     "fallback": "assets/img/fallback/rolls.svg",
     "badge": "роллы"
   },
@@ -115,7 +115,7 @@
     "price": "380 ₽",
     "weight": "1 шт.",
     "description": "",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/shaurma-s-kuritsey-v-syrnom-lavashe-i-syrom-motsarello.jpg",
     "fallback": "assets/img/fallback/shawarma.svg",
     "badge": "шаурма"
   },
@@ -125,7 +125,7 @@
     "price": "320 ₽",
     "weight": "1 шт.",
     "description": "ШАУРМА с курицей очень вкусная сочная и хрустящая",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/shaurma-s-kuritsey.jpg",
     "fallback": "assets/img/fallback/shawarma.svg",
     "badge": "шаурма"
   },
@@ -135,7 +135,7 @@
     "price": "295 ₽",
     "weight": "1 шт.",
     "description": "Борщ домашний",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/borsch-s-govyadinoy-smetanoy-i-hlebom.jpg",
     "fallback": "assets/img/fallback/soup.svg",
     "badge": "первое"
   },
@@ -145,7 +145,7 @@
     "price": "580 ₽",
     "weight": "300 г",
     "description": "Наша паста приготовлена исключительно из твёрдых сортов пшеницы которые соответствуют требованию данного блюда",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/pasta-s-moreproduktami-v-souse-tom-yam.jpg",
     "fallback": "assets/img/fallback/hot.svg",
     "badge": "горячее"
   },
@@ -155,7 +155,7 @@
     "price": "420 ₽",
     "weight": "250 г",
     "description": "",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/rizotto-s-ovoschami.jpg",
     "fallback": "assets/img/fallback/hot.svg",
     "badge": "горячее"
   },
@@ -165,7 +165,7 @@
     "price": "350 ₽",
     "weight": "1 шт.",
     "description": "МЕНЮ КАФЕ\"ВКУСНЕНЬКО\"",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/menyu-kafe-vkusnenko.jpg",
     "fallback": "assets/img/fallback/sign.svg",
     "badge": "меню"
   },
@@ -175,7 +175,7 @@
     "price": "200 ₽",
     "weight": "1 шт.",
     "description": "МЕНЮ КАФЕ\"ВКУСНЕНЬКО\"",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/menyu.jpg",
     "fallback": "assets/img/fallback/sign.svg",
     "badge": "меню"
   },
@@ -185,7 +185,7 @@
     "price": "250 ₽",
     "weight": "100 г",
     "description": "Свинина жарено-томлёная очень сочное . мягкое и нежное",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/svinina-zhareno-tomlenaya.jpg",
     "fallback": "assets/img/fallback/hot.svg",
     "badge": "мясо"
   },
@@ -195,7 +195,7 @@
     "price": "230 ₽",
     "weight": "1 шт.",
     "description": "ОНИГИРИ - ЯПОНСКИЕ СЕНДВИЧИ",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/onigiri-2.jpg",
     "fallback": "assets/img/fallback/onigiri.svg",
     "badge": "онигири"
   },
@@ -205,7 +205,7 @@
     "price": "450 ₽",
     "weight": "300 г",
     "description": "",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/pasta-karbonara-s-bekonom.jpg",
     "fallback": "assets/img/fallback/hot.svg",
     "badge": "горячее"
   },
@@ -215,7 +215,7 @@
     "price": "590 ₽",
     "weight": "1 шт.",
     "description": "",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/pitstsa-s-ohotnichimi-kolbaskami-i-malosolnym-ogurchikom.jpg",
     "fallback": "assets/img/fallback/pizza.svg",
     "badge": "пицца"
   },
@@ -225,7 +225,7 @@
     "price": "300 ₽",
     "weight": "1 шт.",
     "description": "Очень вкусный и рассыпчатый",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/plov-s-govyadinoy.jpg",
     "fallback": "assets/img/fallback/hot.svg",
     "badge": "горячее"
   },
@@ -235,7 +235,7 @@
     "price": "390 ₽",
     "weight": "8 шт.",
     "description": "Ролы",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/roly.jpg",
     "fallback": "assets/img/fallback/rolls.svg",
     "badge": "роллы"
   },
@@ -245,7 +245,7 @@
     "price": "130 ₽",
     "weight": "1 шт.",
     "description": "Онигири фигурки Онигири Медвежонок с креветкой- 170р. Онигири Мышка с тунцом -140р. Онигири Сердечко с лососем и огурцом- 190р Онигири Цветочек крабовый - 130р. Онигири треугольник с курицей- 140р. Сет 5 штук - 650р.",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/onigiri.jpg",
     "fallback": "assets/img/fallback/onigiri.svg",
     "badge": "онигири"
   },
@@ -255,7 +255,7 @@
     "price": "320 ₽",
     "weight": "250 шт.",
     "description": "",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/salat-bovarskiy.jpg",
     "fallback": "assets/img/fallback/salad.svg",
     "badge": "салат"
   },
@@ -265,7 +265,7 @@
     "price": "420 ₽",
     "weight": "250 г",
     "description": "",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/tsezar-s-kuritsey.jpg",
     "fallback": "assets/img/fallback/salad.svg",
     "badge": "салат"
   },
@@ -275,7 +275,7 @@
     "price": "330 ₽",
     "weight": "100 г",
     "description": "Очень нежное и мягкое мясо томлёное в казане 4 часа",
-    "image": "assets/img/photos/menu-showcase.jpg",
+    "image": "assets/img/photos/products/tomlenaya-govyadina.jpg",
     "fallback": "assets/img/fallback/hot.svg",
     "badge": "мясо"
   }
