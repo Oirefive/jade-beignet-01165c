@@ -22,7 +22,7 @@
   {
     "category": "Пицца 30 см",
     "title": "Пицца с морепродуктами",
-    "price": "830 ₽",
+    "price": "950 ₽",
     "weight": "1 шт.",
     "description": "Пицца 30 см с морепродуктами и сыром.",
     "image": "assets/img/photos/products/pitstsa-s-moreproduktami.jpg",
@@ -61,10 +61,10 @@
   },
   {
     "category": "Первые блюда",
-    "title": "Том Ям",
-    "price": "600 ₽",
-    "weight": "300 мл",
-    "description": "Том Ям по фирменному рецепту кафе.",
+    "title": "Том Ям с морепродуктами",
+    "price": "550 ₽",
+    "weight": "250 г",
+    "description": "Том Ям с морепродуктами, кокосовым молоком и специями.",
     "image": "assets/img/photos/products/tom-yam.jpg",
     "fallback": "assets/img/fallback/soup.svg",
     "badge": "первое"
@@ -112,9 +112,9 @@
   {
     "category": "Роллы",
     "title": "Ролл Цезарь с курицей темпура",
-    "price": "390 ₽",
+    "price": "450 ₽",
     "weight": "8 шт.",
-    "description": "Ролл «Цезарь» с курицей в хрустящей панировке.",
+    "description": "Ролл «Цезарь» с курицей в хрустящей темпуре.",
     "image": "assets/img/photos/products/rol-tsezar-s-kuritsey-tempura.jpg",
     "fallback": "assets/img/fallback/rolls.svg",
     "badge": "роллы"
@@ -122,9 +122,9 @@
   {
     "category": "Роллы",
     "title": "Ролл морской запечённый",
-    "price": "590 ₽",
+    "price": "650 ₽",
     "weight": "8 шт.",
-    "description": "Запечённый морской ролл с креветками и мидиями.",
+    "description": "Запечённый морской ролл с мидиями и креветкой.",
     "image": "assets/img/photos/products/rol-morskoy-zapechennyy.jpg",
     "fallback": "assets/img/fallback/rolls.svg",
     "badge": "роллы"
@@ -142,19 +142,19 @@
   {
     "category": "Шаурма",
     "title": "Шаурма с курицей в сырном лаваше и моцареллой",
-    "price": "380 ₽",
-    "weight": "1 шт.",
-    "description": "Шаурма с курицей, сырным лавашом и моцареллой.",
+    "price": "420 ₽",
+    "weight": "400 г",
+    "description": "Сырная шаурма с курицей и моцареллой.",
     "image": "assets/img/photos/products/shaurma-s-kuritsey-v-syrnom-lavashe-i-syrom-motsarello.jpg",
     "fallback": "assets/img/fallback/shawarma.svg",
     "badge": "шаурма"
   },
   {
     "category": "Шаурма",
-    "title": "Шаурма с курицей",
-    "price": "320 ₽",
-    "weight": "1 шт.",
-    "description": "Сочная хрустящая шаурма с курицей.",
+    "title": "Классическая шаурма с курицей",
+    "price": "380 ₽",
+    "weight": "400 г",
+    "description": "Классическая шаурма с курицей.",
     "image": "assets/img/photos/products/shaurma-s-kuritsey.jpg",
     "fallback": "assets/img/fallback/shawarma.svg",
     "badge": "шаурма"
@@ -162,9 +162,9 @@
   {
     "category": "Горячие блюда",
     "title": "Паста с морепродуктами в соусе Том Ям",
-    "price": "580 ₽",
+    "price": "550 ₽",
     "weight": "300 г",
-    "description": "Паста из твёрдых сортов пшеницы с морепродуктами в соусе Том Ям.",
+    "description": "Паста с морепродуктами.",
     "image": "assets/img/photos/products/pasta-s-moreproduktami-v-souse-tom-yam.jpg",
     "fallback": "assets/img/fallback/hot.svg",
     "badge": "горячее"
@@ -182,9 +182,9 @@
   {
     "category": "Горячие блюда",
     "title": "Паста Карбонара с беконом",
-    "price": "450 ₽",
+    "price": "480 ₽",
     "weight": "300 г",
-    "description": "Классическая паста карбонара с беконом.",
+    "description": "Паста карбонара с беконом.",
     "image": "assets/img/photos/products/pasta-karbonara-s-bekonom.jpg",
     "fallback": "assets/img/fallback/hot.svg",
     "badge": "горячее"
@@ -202,7 +202,7 @@
   {
     "category": "Мясо",
     "title": "Свинина жарено-томлёная",
-    "price": "250 ₽",
+    "price": "280 ₽",
     "weight": "100 г",
     "description": "Сочная, мягкая и нежная жарено-томлёная свинина.",
     "image": "assets/img/photos/products/svinina-zhareno-tomlenaya.jpg",
@@ -211,30 +211,30 @@
   },
   {
     "category": "Мясо",
-    "title": "Томлёная говядина",
-    "price": "330 ₽",
+    "title": "Говядина жарено-томлёная",
+    "price": "350 ₽",
     "weight": "100 г",
-    "description": "Нежная говядина, томлёная в казане 4 часа.",
+    "description": "Жарено-томлёная говядина.",
     "image": "assets/img/photos/products/tomlenaya-govyadina.jpg",
     "fallback": "assets/img/fallback/hot.svg",
     "badge": "мясо"
   },
   {
     "category": "Онигири",
-    "title": "Онигири",
+    "title": "Онигири крабовый",
     "price": "230 ₽",
     "weight": "1 шт.",
-    "description": "Японский рисовый сэндвич с начинкой.",
+    "description": "Онигири с крабовой начинкой.",
     "image": "assets/img/photos/products/onigiri-2.jpg",
     "fallback": "assets/img/fallback/onigiri.svg",
     "badge": "онигири"
   },
   {
     "category": "Онигири",
-    "title": "Онигири фигурные",
-    "price": "130 ₽",
+    "title": "Онигири с курицей и ананасом",
+    "price": "250 ₽",
     "weight": "1 шт.",
-    "description": "Фигурные онигири: медвежонок с креветкой, мышка с тунцом, сердечко с лососем и огурцом, цветочек крабовый, треугольник с курицей. Сет из 5 штук — 650 ₽.",
+    "description": "Онигири с курицей и ананасом.",
     "image": "assets/img/photos/products/onigiri.jpg",
     "fallback": "assets/img/fallback/onigiri.svg",
     "badge": "онигири"
@@ -252,7 +252,7 @@
   {
     "category": "Салаты",
     "title": "Цезарь с курицей",
-    "price": "420 ₽",
+    "price": "450 ₽",
     "weight": "250 г",
     "description": "Салат «Цезарь» с курицей.",
     "image": "assets/img/photos/products/tsezar-s-kuritsey.jpg",
