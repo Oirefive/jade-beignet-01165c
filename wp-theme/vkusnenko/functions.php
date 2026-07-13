@@ -9,6 +9,7 @@ add_action( 'after_setup_theme', function () {
 } );
 
 add_filter( 'show_admin_bar', '__return_false' );
+add_filter( 'redirect_canonical', '__return_false' );
 
 add_action( 'init', function () {
     register_taxonomy( 'menu_category', array( 'menu_item' ), array(
