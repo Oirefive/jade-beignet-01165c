@@ -49,7 +49,7 @@ h3{font-size:clamp(24px,3vw,34px);letter-spacing:-.035em}
 .hero-photo__card strong{display:block;font-size:22px}.hero-photo__card span{display:block;color:var(--muted);margin-top:4px}
 .section{padding:clamp(54px,7vw,92px) 0}
 .section__head{max-width:780px;margin-bottom:30px}.section__head p,.muted{color:var(--muted);line-height:1.65}
-.strip{background:linear-gradient(135deg,#2a0d09,var(--dark) 58%,#5b1612);color:#fff}
+.strip{background:#d71919;color:#fff}
 .strip .eyebrow{color:var(--accent2)}.strip p{color:rgba(255,255,255,.76)}
 .strip-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:28px;align-items:center}
 .service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
