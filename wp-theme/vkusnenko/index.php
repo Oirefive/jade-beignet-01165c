@@ -1,14 +1,14 @@
-﻿<?php $theme_uri = esc_url( get_template_directory_uri() ); ?>
+<?php $theme_uri = esc_url( get_template_directory_uri() ); ?>
 <!doctype html>
 <html lang="ru">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <title>РљР°С„Рµ В«Р’РєСѓСЃРЅРµРЅСЊРєРѕВ» вЂ” Р¤РµРѕРґРѕСЃРёСЏ | РџРёС†С†Р°, СЂРѕР»Р»С‹, С€Р°СѓСЂРјР°, РґРѕСЃС‚Р°РІРєР°</title>
-  <meta name="description" content="РљР°С„Рµ В«Р’РєСѓСЃРЅРµРЅСЊРєРѕВ» РІ Р¤РµРѕРґРѕСЃРёРё: РїРёС†С†Р° 30 СЃРј, СЂРѕР»Р»С‹, С€Р°СѓСЂРјР°, РўРѕРј РЇРј, Р±РѕСЂС‰, РїР°СЃС‚Р°, РіРѕСЂСЏС‡РёРµ Р±Р»СЋРґР°, РѕРЅРёРіРёСЂРё Рё РґРµСЃРµСЂС‚С‹. РЎР°РјРѕРІС‹РІРѕР· Рё РґРѕСЃС‚Р°РІРєР°.">
+  <title>Кафе «Вкусненько» — Феодосия | Пицца, роллы, шаурма, доставка</title>
+  <meta name="description" content="Кафе «Вкусненько» в Феодосии: пицца 30 см, роллы, шаурма, Том Ям, борщ, паста, горячие блюда, онигири и десерты. Самовывоз и доставка.">
   <meta name="theme-color" content="#b6451e">
-  <meta property="og:title" content="РљР°С„Рµ В«Р’РєСѓСЃРЅРµРЅСЊРєРѕВ» вЂ” Р¤РµРѕРґРѕСЃРёСЏ">
-  <meta property="og:description" content="РџРёС†С†Р°, СЂРѕР»Р»С‹, С€Р°СѓСЂРјР°, РіРѕСЂСЏС‡РёРµ Р±Р»СЋРґР° Рё РґРµСЃРµСЂС‚С‹. Р¤РµРѕРґРѕСЃРёСЏ, СѓР». Р§РµР»РЅРѕРєРѕРІР°, 80Р’.">
+  <meta property="og:title" content="Кафе «Вкусненько» — Феодосия">
+  <meta property="og:description" content="Пицца, роллы, шаурма, горячие блюда и десерты. Феодосия, ул. Челнокова, 80В.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="<?php echo $theme_uri; ?>/assets/img/photos/cafe-exterior.jpg?v=2">
   <link rel="icon" href="<?php echo $theme_uri; ?>/assets/img/logo.svg" type="image/svg+xml">
@@ -18,17 +18,17 @@
   {
     "@context": "https://schema.org",
     "@type": "Restaurant",
-    "name": "РљР°С„Рµ Р’РєСѓСЃРЅРµРЅСЊРєРѕ",
+    "name": "Кафе Вкусненько",
     "url": "https://yandex.ru/maps/org/vkusnenko/93899928770/",
     "image": "<?php echo $theme_uri; ?>/assets/img/photos/cafe-exterior.jpg?v=2",
     "telephone": "+79785203195",
-    "servesCuisine": ["РџРёС†С†Р°", "Р РѕР»Р»С‹", "РЁР°СѓСЂРјР°", "РЎСѓРїС‹", "Р“РѕСЂСЏС‡РёРµ Р±Р»СЋРґР°", "Р”РµСЃРµСЂС‚С‹"],
+    "servesCuisine": ["Пицца", "Роллы", "Шаурма", "Супы", "Горячие блюда", "Десерты"],
     "address": {
       "@type": "PostalAddress",
       "addressCountry": "RU",
-      "addressRegion": "Р РµСЃРїСѓР±Р»РёРєР° РљСЂС‹Рј",
-      "addressLocality": "Р¤РµРѕРґРѕСЃРёСЏ",
-      "streetAddress": "СѓР»РёС†Р° Р§РµР»РЅРѕРєРѕРІР°, 80Р’"
+      "addressRegion": "Республика Крым",
+      "addressLocality": "Феодосия",
+      "streetAddress": "улица Челнокова, 80В"
     },
     "sameAs": ["https://yandex.ru/maps/org/vkusnenko/93899928770/"],
     "hasMenu": "https://yandex.ru/maps/org/vkusnenko/93899928770/menu/"
@@ -37,25 +37,25 @@
   <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-  <a class="skip-link" href="#main">Рљ СЃРѕРґРµСЂР¶Р°РЅРёСЋ</a>
+  <a class="skip-link" href="#main">К содержанию</a>
 
   <header class="topbar">
     <div class="container topbar__inner">
-      <a class="brand" href="#top" aria-label="РљР°С„Рµ Р’РєСѓСЃРЅРµРЅСЊРєРѕ">
-        <span class="brand__mark">Р’</span>
-        <span><strong>Р’РєСѓСЃРЅРµРЅСЊРєРѕ</strong><small>Р¤РµРѕРґРѕСЃРёСЏ вЂў Р§РµР»РЅРѕРєРѕРІР°, 80Р’</small></span>
+      <a class="brand" href="#top" aria-label="Кафе Вкусненько">
+        <span class="brand__mark">В</span>
+        <span><strong>Вкусненько</strong><small>Феодосия • Челнокова, 80В</small></span>
       </a>
 
-      <nav class="nav" aria-label="Р“Р»Р°РІРЅРѕРµ РјРµРЅСЋ">
-        <a href="#menu">РњРµРЅСЋ</a>
-        <a href="#delivery">Р”РѕСЃС‚Р°РІРєР°</a>
-        <a href="#gallery">Р¤РѕС‚Рѕ</a>
-        <a href="#reviews">РћС‚Р·С‹РІС‹</a>
-        <a href="#contacts">РљРѕРЅС‚Р°РєС‚С‹</a>
+      <nav class="nav" aria-label="Главное меню">
+        <a href="#menu">Меню</a>
+        <a href="#delivery">Доставка</a>
+        <a href="#gallery">Фото</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
       </nav>
 
-      <a class="phone" href="tel:+79785203195">+7 978 520вЂ‘31вЂ‘95</a>
-      <button class="menu-toggle" type="button" aria-label="РћС‚РєСЂС‹С‚СЊ РјРµРЅСЋ" aria-expanded="false">РњРµРЅСЋ</button>
+      <a class="phone" href="tel:+79785203195">+7 978 520‑31‑95</a>
+      <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false">Меню</button>
     </div>
   </header>
 
@@ -63,26 +63,26 @@
     <section class="hero" id="top">
       <div class="container hero__grid">
         <div>
-          <p class="eyebrow">РљР°С„Рµ вЂў РґРѕСЃС‚Р°РІРєР° вЂў СЃР°РјРѕРІС‹РІРѕР·</p>
-          <h1>Р’РєСѓСЃРЅР°СЏ РµРґР° СЂСЏРґРѕРј вЂ” РєР°С„Рµ В«Р’РєСѓСЃРЅРµРЅСЊРєРѕВ» РІ Р¤РµРѕРґРѕСЃРёРё</h1>
-          <p class="lead">РџРёС†С†Р° 30 СЃРј, СЂРѕР»Р»С‹, С€Р°СѓСЂРјР°, РїРµСЂРІС‹Рµ Р±Р»СЋРґР°, РїР°СЃС‚Р°, РјСЏСЃРѕ, РѕРЅРёРіРёСЂРё, СЃР°Р»Р°С‚С‹ Рё РґРµСЃРµСЂС‚С‹. РџРѕР·РІРѕРЅРёС‚Рµ, СѓС‚РѕС‡РЅРёС‚Рµ РЅР°Р»РёС‡РёРµ Рё РѕС„РѕСЂРјРёС‚Рµ Р·Р°РєР°Р·.</p>
+          <p class="eyebrow">Кафе • доставка • самовывоз</p>
+          <h1>Вкусная еда рядом — кафе «Вкусненько» в Феодосии</h1>
+          <p class="lead">Пицца 30 см, роллы, шаурма, первые блюда, паста, мясо, онигири, салаты и десерты. Позвоните, уточните наличие и оформите заказ.</p>
           <div class="actions">
-            <a class="btn btn--primary" href="tel:+79785203195">РџРѕР·РІРѕРЅРёС‚СЊ Рё Р·Р°РєР°Р·Р°С‚СЊ</a>
-            <a class="btn btn--light" href="#menu">РџРѕСЃРјРѕС‚СЂРµС‚СЊ РјРµРЅСЋ</a>
+            <a class="btn btn--primary" href="tel:+79785203195">Позвонить и заказать</a>
+            <a class="btn btn--light" href="#menu">Посмотреть меню</a>
           </div>
-          <div class="facts" aria-label="РљСЂР°С‚РєР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ">
-            <span>рџ“Ќ СѓР». Р§РµР»РЅРѕРєРѕРІР°, 80Р’</span>
-            <span>рџҐЎ Р•РґР° СЃ СЃРѕР±РѕР№</span>
-            <span>рџљљ Р”РѕСЃС‚Р°РІРєР°</span>
-            <span>рџ’і РљР°СЂС‚Р°, QR, РЅР°Р»РёС‡РЅС‹Рµ</span>
+          <div class="facts" aria-label="Краткая информация">
+            <span>📍 ул. Челнокова, 80В</span>
+            <span>🥡 Еда с собой</span>
+            <span>🚚 Доставка</span>
+            <span>💳 Карта, QR, наличные</span>
           </div>
         </div>
 
         <div class="hero-photo">
-          <img class="hero-photo__img" src="<?php echo $theme_uri; ?>/assets/img/photos/cafe-exterior.jpg?v=2" alt="РљР°С„Рµ Р’РєСѓСЃРЅРµРЅСЊРєРѕ, Р¤РµРѕРґРѕСЃРёСЏ" onerror="this.onerror=null;this.src='<?php echo $theme_uri; ?>/assets/img/fallback/exterior.svg';">
+          <img class="hero-photo__img" src="<?php echo $theme_uri; ?>/assets/img/photos/cafe-exterior.jpg?v=2" alt="Кафе Вкусненько, Феодосия" onerror="this.onerror=null;this.src='<?php echo $theme_uri; ?>/assets/img/fallback/exterior.svg';">
           <div class="hero-photo__card">
-            <strong>РћС‚РєСЂС‹С‚Рѕ РґРѕ 22:00</strong>
-            <span>РіРѕС‚РѕРІРёРј РґР»СЏ РіРѕСЃС‚РµР№ РІ РєР°С„Рµ, РЅР° СЃР°РјРѕРІС‹РІРѕР· Рё РґРѕСЃС‚Р°РІРєСѓ</span>
+            <strong>Открыто до 22:00</strong>
+            <span>готовим для гостей в кафе, на самовывоз и доставку</span>
           </div>
         </div>
       </div>
@@ -91,18 +91,18 @@
     <section class="section strip" id="delivery">
       <div class="container strip-grid">
         <div class="strip__content">
-          <p class="eyebrow">РљР°Рє Р·Р°РєР°Р·Р°С‚СЊ</p>
-          <h2>РџРѕР·РІРѕРЅРёС‚Рµ вЂ” РїСЂРёРіРѕС‚РѕРІРёРј Рє РІР°С€РµРјСѓ РїСЂРёРµР·РґСѓ</h2>
-          <p>РЈС‚РѕС‡РЅРёС‚Рµ РЅР°Р»РёС‡РёРµ Р±Р»СЋРґ, РІСЂРµРјСЏ РїСЂРёРіРѕС‚РѕРІР»РµРЅРёСЏ Рё СѓСЃР»РѕРІРёСЏ РґРѕСЃС‚Р°РІРєРё РїРѕ Р¤РµРѕРґРѕСЃРёРё. Р’ РєР°СЂС‚РѕС‡РєРµ СѓРєР°Р·Р°РЅС‹ РґРѕСЃС‚Р°РІРєР°, РµРґР° СЃ СЃРѕР±РѕР№ Рё РЅРµСЃРєРѕР»СЊРєРѕ СЃРїРѕСЃРѕР±РѕРІ РѕРїР»Р°С‚С‹.</p>
+          <p class="eyebrow">Как заказать</p>
+          <h2>Позвоните — приготовим к вашему приезду</h2>
+          <p>Уточните наличие блюд, время приготовления и условия доставки по Феодосии. В карточке указаны доставка, еда с собой и несколько способов оплаты.</p>
           <div class="actions">
-            <a class="btn btn--primary" href="tel:+79785203195">Р—Р°РєР°Р·Р°С‚СЊ РїРѕ С‚РµР»РµС„РѕРЅСѓ</a>
-            <a class="btn btn--dark" href="https://yandex.ru/maps/org/vkusnenko/93899928770/" target="_blank" rel="noopener">РћС‚РєСЂС‹С‚СЊ РєР°СЂС‚Сѓ</a>
+            <a class="btn btn--primary" href="tel:+79785203195">Заказать по телефону</a>
+            <a class="btn btn--dark" href="https://yandex.ru/maps/org/vkusnenko/93899928770/" target="_blank" rel="noopener">Открыть карту</a>
           </div>
         </div>
         <div class="service-grid">
-          <article class="service service--menu"><span>1</span><i aria-hidden="true"></i><strong>Р’С‹Р±РµСЂРёС‚Рµ Р±Р»СЋРґР°</strong><p>РњРµРЅСЋ РЅРёР¶Рµ СЂР°Р·РґРµР»РµРЅРѕ РїРѕ РєР°С‚РµРіРѕСЂРёСЏРј.</p></article>
-          <article class="service service--phone"><span>2</span><i aria-hidden="true"></i><strong>РџРѕР·РІРѕРЅРёС‚Рµ</strong><p>РўРµР»РµС„РѕРЅ: +7 978 520вЂ‘31вЂ‘95.</p></article>
-          <article class="service service--bag"><span>3</span><i aria-hidden="true"></i><strong>Р—Р°Р±РµСЂРёС‚Рµ РёР»Рё Р¶РґРёС‚Рµ</strong><p>РЎР°РјРѕРІС‹РІРѕР· СЃ Р§РµР»РЅРѕРєРѕРІР°, 80Р’ РёР»Рё РґРѕСЃС‚Р°РІРєР°.</p></article>
+          <article class="service service--menu"><span>1</span><i aria-hidden="true"></i><strong>Выберите блюда</strong><p>Меню ниже разделено по категориям.</p></article>
+          <article class="service service--phone"><span>2</span><i aria-hidden="true"></i><strong>Позвоните</strong><p>Телефон: +7 978 520‑31‑95.</p></article>
+          <article class="service service--bag"><span>3</span><i aria-hidden="true"></i><strong>Заберите или ждите</strong><p>Самовывоз с Челнокова, 80В или доставка.</p></article>
         </div>
       </div>
     </section>
@@ -110,19 +110,19 @@
     <section class="section" id="menu">
       <div class="container">
         <div class="section__head">
-          <p class="eyebrow">РњРµРЅСЋ Рё С†РµРЅС‹</p>
-          <h2>Р’РёС‚СЂРёРЅР° Р±Р»СЋРґ</h2>
-          <p>Р’С‹Р±РµСЂРёС‚Рµ Р±Р»СЋРґРѕ Рё РїРѕР·РІРѕРЅРёС‚Рµ РЅР°Рј вЂ” РїРѕРґСЃРєР°Р¶РµРј РЅР°Р»РёС‡РёРµ, РІСЂРµРјСЏ РїСЂРёРіРѕС‚РѕРІР»РµРЅРёСЏ Рё РёС‚РѕРіРѕРІСѓСЋ СЃСѓРјРјСѓ Р·Р°РєР°Р·Р°.</p>
+          <p class="eyebrow">Меню и цены</p>
+          <h2>Витрина блюд</h2>
+          <p>Выберите блюдо и позвоните нам — подскажем наличие, время приготовления и итоговую сумму заказа.</p>
         </div>
 
         <div class="toolbar">
           <label>
-            <span class="eyebrow">РџРѕРёСЃРє РїРѕ РјРµРЅСЋ</span>
-            <input class="search" id="search" type="search" placeholder="РќР°РїСЂРёРјРµСЂ: РїРёС†С†Р°, СЂРѕР»Р», Р±РѕСЂС‰, РґРµСЃРµСЂС‚">
+            <span class="eyebrow">Поиск по меню</span>
+            <input class="search" id="search" type="search" placeholder="Например: пицца, ролл, борщ, десерт">
           </label>
           <div>
-            <p class="eyebrow" id="menu-count">Р—Р°РіСЂСѓР·РєР°вЂ¦</p>
-            <div class="chips" aria-label="РљР°С‚РµРіРѕСЂРёРё РјРµРЅСЋ"></div>
+            <p class="eyebrow" id="menu-count">Загрузка…</p>
+            <div class="chips" aria-label="Категории меню"></div>
           </div>
         </div>
 
@@ -134,9 +134,9 @@
     <section class="section" id="gallery">
       <div class="container">
         <div class="section__head">
-          <p class="eyebrow">Р¤РѕС‚Рѕ</p>
-          <h2>Р¤РѕС‚Рѕ РєР°С„Рµ Рё Р±Р»СЋРґ</h2>
-          <p>РџРѕСЃРјРѕС‚СЂРёС‚Рµ, РєР°Рє РІС‹РіР»СЏРґРёС‚ РєР°С„Рµ, РІРёС‚СЂРёРЅР° Рё РґРµСЃРµСЂС‚С‹.</p>
+          <p class="eyebrow">Фото</p>
+          <h2>Фото кафе и блюд</h2>
+          <p>Посмотрите, как выглядит кафе, витрина и десерты.</p>
         </div>
         <div class="gallery-grid" id="gallery-grid"></div>
       </div>
@@ -145,13 +145,13 @@
     <section class="section" id="reviews">
       <div class="container">
         <div class="section__head">
-          <p class="eyebrow">РћС‚Р·С‹РІС‹</p>
-          <h2>Р§С‚Рѕ РѕС‚РјРµС‡Р°СЋС‚ РіРѕСЃС‚Рё</h2>
+          <p class="eyebrow">Отзывы</p>
+          <h2>Что отмечают гости</h2>
         </div>
         <div class="reviews">
-          <article class="review"><p>В«Р’СЃС‘ Р±С‹Р»Рѕ РѕС‡РµРЅСЊ РІРєСѓСЃРЅРѕ Рё РїСЂРё СЌС‚РѕРј РЅРµРґРѕСЂРѕРіРѕВ»</p><span>Р»Р°С‚С‚Рµ Рё РјРµРґРѕРІРёРє</span></article>
-          <article class="review"><p>В«РЁР°СѓСЂРјР° РѕС‡РµРЅСЊ Р·Р°С€Р»Р°В»</p><span>РїРѕ РѕС‚Р·С‹РІСѓ РіРѕСЃС‚СЏ</span></article>
-          <article class="review"><p>В«РџРёС†С†Р° РїСЂРѕСЃС‚Рѕ РёРґРµР°Р»СЊРЅР°СЏВ»</p><span>РїРѕ РѕС‚Р·С‹РІСѓ РіРѕСЃС‚СЏ</span></article>
+          <article class="review"><p>«Всё было очень вкусно и при этом недорого»</p><span>латте и медовик</span></article>
+          <article class="review"><p>«Шаурма очень зашла»</p><span>по отзыву гостя</span></article>
+          <article class="review"><p>«Пицца просто идеальная»</p><span>по отзыву гостя</span></article>
         </div>
       </div>
     </section>
@@ -159,22 +159,22 @@
     <section class="section" id="contacts">
       <div class="container contacts">
         <div class="contact-card">
-          <p class="eyebrow">РљРѕРЅС‚Р°РєС‚С‹</p>
-          <h2>РљР°С„Рµ В«Р’РєСѓСЃРЅРµРЅСЊРєРѕВ»</h2>
-          <p><strong>РђРґСЂРµСЃ:</strong> Р РµСЃРїСѓР±Р»РёРєР° РљСЂС‹Рј, Р¤РµРѕРґРѕСЃРёСЏ, СѓР»РёС†Р° Р§РµР»РЅРѕРєРѕРІР°, 80Р’</p>
-          <p><strong>РћСЂРёРµРЅС‚РёСЂ:</strong> РІС…РѕРґ РІ РєР°С„Рµ СЃ Р·Р°РґРЅРµР№ СЃС‚РѕСЂРѕРЅС‹ Р·РґР°РЅРёСЏ</p>
-          <p><strong>РўРµР»РµС„РѕРЅ:</strong> <a href="tel:+79785203195">+7 978 520вЂ‘31вЂ‘95</a></p>
-          <p><strong>РћРїР»Р°С‚Р°:</strong> РЅР°Р»РёС‡РЅС‹Рµ, РєР°СЂС‚Р°, QR, РЎР‘Рџ, Р±РµР·РЅР°Р»РёС‡РЅС‹Р№ СЂР°СЃС‡С‘С‚</p>
+          <p class="eyebrow">Контакты</p>
+          <h2>Кафе «Вкусненько»</h2>
+          <p><strong>Адрес:</strong> Республика Крым, Феодосия, улица Челнокова, 80В</p>
+          <p><strong>Ориентир:</strong> вход в кафе с задней стороны здания</p>
+          <p><strong>Телефон:</strong> <a href="tel:+79785203195">+7 978 520‑31‑95</a></p>
+          <p><strong>Оплата:</strong> наличные, карта, QR, СБП, безналичный расчёт</p>
           <div class="actions">
-            <a class="btn btn--primary" href="tel:+79785203195">РџРѕР·РІРѕРЅРёС‚СЊ</a>
-            <a class="btn btn--light" href="https://yandex.ru/maps/org/vkusnenko/93899928770/" target="_blank" rel="noopener">РџРѕСЃС‚СЂРѕРёС‚СЊ РјР°СЂС€СЂСѓС‚</a>
-            <button class="btn btn--light" id="copy-address" type="button">РЎРєРѕРїРёСЂРѕРІР°С‚СЊ Р°РґСЂРµСЃ</button>
+            <a class="btn btn--primary" href="tel:+79785203195">Позвонить</a>
+            <a class="btn btn--light" href="https://yandex.ru/maps/org/vkusnenko/93899928770/" target="_blank" rel="noopener">Построить маршрут</a>
+            <button class="btn btn--light" id="copy-address" type="button">Скопировать адрес</button>
           </div>
         </div>
         <div class="map-card">
-          <div class="pin">рџ“Ќ</div>
-          <h3>Р¤РµРѕРґРѕСЃРёСЏ, Р§РµР»РЅРѕРєРѕРІР°, 80Р’</h3>
-          <p class="muted">РќР°Р¶РјРёС‚Рµ В«РџРѕСЃС‚СЂРѕРёС‚СЊ РјР°СЂС€СЂСѓС‚В» вЂ” РѕС‚РєСЂРѕРµС‚СЃСЏ РєР°СЂС‚Р° СЃ Р°РґСЂРµСЃРѕРј РєР°С„Рµ.</p>
+          <div class="pin">📍</div>
+          <h3>Феодосия, Челнокова, 80В</h3>
+          <p class="muted">Нажмите «Построить маршрут» — откроется карта с адресом кафе.</p>
         </div>
       </div>
     </section>
@@ -182,13 +182,13 @@
 
   <footer class="footer">
     <div class="container footer__inner">
-      <p>В© <span id="year"></span> РљР°С„Рµ В«Р’РєСѓСЃРЅРµРЅСЊРєРѕВ». РњРµРЅСЋ Рё С†РµРЅС‹ СѓС‚РѕС‡РЅСЏР№С‚Рµ РїРµСЂРµРґ Р·Р°РєР°Р·РѕРј.</p>
-      <a href="#top">РќР°РІРµСЂС… в†‘</a>
+      <p>© <span id="year"></span> Кафе «Вкусненько». Меню и цены уточняйте перед заказом.</p>
+      <a href="#top">Наверх ↑</a>
     </div>
   </footer>
 
-  <a class="floating-call" href="tel:+79785203195" aria-label="РџРѕР·РІРѕРЅРёС‚СЊ">вЋ</a>
-  <div class="toast" id="toast" role="status" aria-live="polite">РђРґСЂРµСЃ СЃРєРѕРїРёСЂРѕРІР°РЅ</div>
+  <a class="floating-call" href="tel:+79785203195" aria-label="Позвонить">☎</a>
+  <div class="toast" id="toast" role="status" aria-live="polite">Адрес скопирован</div>
 
   <script>
     window.__VKUSNENKO_API__ = {
@@ -200,6 +200,5 @@
   <?php wp_footer(); ?>
 </body>
 </html>
-
 
 
