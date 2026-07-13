@@ -50,21 +50,20 @@ h3{font-size:clamp(24px,3vw,34px);letter-spacing:-.035em}
 .section{padding:clamp(54px,7vw,92px) 0}
 .section__head{max-width:780px;margin-bottom:30px}.section__head p,.muted{color:var(--muted);line-height:1.65}
 .strip{padding:clamp(32px,5vw,54px) 0;background:transparent;color:#fff}
-.strip-grid{position:relative;display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(28px,5vw,64px);align-items:center;overflow:hidden;padding:clamp(42px,6vw,74px);border-radius:30px;background:#d71919;box-shadow:0 28px 70px rgba(148,0,0,.22)}
+.strip-grid{position:relative;display:grid;grid-template-columns:minmax(320px,.82fr) minmax(0,1.18fr);gap:clamp(24px,3vw,42px);align-items:center;overflow:hidden;padding:clamp(36px,4vw,58px);border-radius:30px;background:#d71919;box-shadow:0 28px 70px rgba(148,0,0,.22)}
 .strip-grid::before{content:"";position:absolute;inset:auto -10% 8% -10%;height:120px;border-top:22px solid rgba(255,255,255,.06);border-radius:50%;transform:rotate(-3deg)}
 .strip-grid::after{content:"";position:absolute;right:36px;bottom:26px;width:150px;height:118px;border-radius:22px;background:linear-gradient(135deg,rgba(255,206,31,.2),rgba(255,255,255,.08));opacity:.55}
 .strip__content,.service-grid{position:relative;z-index:1}
 .strip .eyebrow{display:flex;align-items:center;gap:10px;color:var(--accent2)}.strip .eyebrow::before{content:"";width:18px;height:18px;border:2px solid currentColor;border-radius:5px;box-shadow:inset 0 0 0 4px rgba(255,255,255,.08)}
-.strip h2{max-width:640px;font-size:clamp(38px,5.4vw,72px);line-height:.98;letter-spacing:-.055em}.strip h2::after{content:"";display:block;width:72px;height:5px;margin-top:22px;border-radius:999px;background:var(--accent2)}
+.strip h2{max-width:560px;font-size:clamp(34px,4vw,54px);line-height:1;letter-spacing:-.045em}.strip h2::after{content:"";display:block;width:72px;height:5px;margin-top:20px;border-radius:999px;background:var(--accent2)}
 .strip p{color:rgba(255,255,255,.82)}
-.strip .actions{gap:18px}.strip .btn{min-height:62px;padding-inline:28px}.strip .btn--primary{background:var(--accent2);color:#20100b;box-shadow:0 16px 34px rgba(82,14,0,.26)}.strip .btn--dark{background:transparent;border-color:rgba(255,255,255,.68);color:#fff}
-.strip .btn--primary::before{content:"☎";margin-right:10px;font-size:20px}.strip .btn--dark::before{content:"⌖";margin-right:10px;font-size:22px}
+.strip .actions{gap:14px}.strip .btn{min-height:56px;padding-inline:24px}.strip .btn--primary{background:var(--accent2);color:#20100b;box-shadow:0 16px 34px rgba(82,14,0,.26)}.strip .btn--dark{background:transparent;border-color:rgba(255,255,255,.68);color:#fff}
 .service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.service{position:relative;min-height:280px;padding:72px 28px 30px;text-align:center;border:1px solid rgba(255,255,255,.22);border-radius:28px;background:rgba(255,255,255,.08);box-shadow:inset 0 1px 0 rgba(255,255,255,.12)}
-.service span{position:absolute;left:24px;top:22px;display:grid;place-items:center;width:54px;height:54px;border-radius:50%;background:var(--accent2);color:#20100b;font-weight:950;font-size:24px;margin:0}
-.service i{position:relative;display:grid;place-items:center;width:86px;height:86px;margin:0 auto 24px;border-radius:50%;background:#fff8ec;color:var(--accent);box-shadow:0 14px 34px rgba(93,0,0,.24);font-style:normal}
-.service i::before{font-size:40px;line-height:1}.service--menu i::before{content:"♨"}.service--phone i::before{content:"☎"}.service--bag i::before{content:"";width:30px;height:28px;border:3px solid currentColor;border-radius:4px}.service--bag i::after{content:"";position:absolute;top:28px;width:18px;height:12px;border:3px solid currentColor;border-bottom:0;border-radius:12px 12px 0 0}
-.service strong{display:block;font-size:24px;line-height:1.08;margin-bottom:18px}.service strong::after{content:"";display:block;width:42px;height:4px;margin:18px auto 0;border-radius:999px;background:var(--accent2)}
+.service{position:relative;min-height:230px;padding:62px 18px 24px;text-align:center;border:1px solid rgba(255,255,255,.22);border-radius:24px;background:rgba(255,255,255,.08);box-shadow:inset 0 1px 0 rgba(255,255,255,.12)}
+.service span{position:absolute;left:20px;top:18px;display:grid;place-items:center;width:46px;height:46px;border-radius:50%;background:var(--accent2);color:#20100b;font-weight:950;font-size:20px;margin:0}
+.service i{display:grid;place-items:center;width:72px;height:72px;margin:0 auto 20px;border-radius:50%;background:#fff8ec;color:var(--accent);box-shadow:0 14px 34px rgba(93,0,0,.2);font-style:normal;font-size:13px;font-weight:950;text-transform:uppercase}
+.service--menu i::before{content:"Меню"}.service--phone i::before{content:"Звонок"}.service--bag i::before{content:"Заказ"}
+.service strong{display:block;font-size:20px;line-height:1.12;margin-bottom:14px}.service strong::after{content:"";display:block;width:38px;height:4px;margin:16px auto 0;border-radius:999px;background:var(--accent2)}
 .toolbar{display:grid;grid-template-columns:minmax(260px,360px) minmax(0,1fr);gap:16px;align-items:end;margin-bottom:22px}
 .toolbar label,.toolbar > div{min-width:0}
 .search{width:100%;min-height:52px;border:1px solid var(--line);border-radius:18px;background:rgba(255,255,255,.75);padding:12px 16px;font:inherit;font-weight:700;color:var(--text)}
