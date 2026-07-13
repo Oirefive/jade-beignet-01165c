@@ -1,0 +1,204 @@
+<?php $theme_uri = esc_url( get_template_directory_uri() ); ?>
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Кафе «Вкусненько» — Феодосия | Пицца, роллы, шаурма, доставка</title>
+  <meta name="description" content="Кафе «Вкусненько» в Феодосии: пицца 30 см, роллы, шаурма, Том Ям, борщ, паста, горячие блюда, онигири и десерты. Самовывоз и доставка.">
+  <meta name="theme-color" content="#b6451e">
+  <meta property="og:title" content="Кафе «Вкусненько» — Феодосия">
+  <meta property="og:description" content="Пицца, роллы, шаурма, горячие блюда и десерты. Феодосия, ул. Челнокова, 80В.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="<?php echo $theme_uri; ?>/assets/img/photos/cafe-exterior.jpg?v=2">
+  <link rel="icon" href="<?php echo $theme_uri; ?>/assets/img/logo.svg" type="image/svg+xml">
+  <link rel="manifest" href="<?php echo $theme_uri; ?>/manifest.webmanifest">
+  <link rel="stylesheet" href="<?php echo $theme_uri; ?>/assets/css/style.css?v=10">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Кафе Вкусненько",
+    "url": "https://yandex.ru/maps/org/vkusnenko/93899928770/",
+    "image": "<?php echo $theme_uri; ?>/assets/img/photos/cafe-exterior.jpg?v=2",
+    "telephone": "+79785203195",
+    "servesCuisine": ["Пицца", "Роллы", "Шаурма", "Супы", "Горячие блюда", "Десерты"],
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "RU",
+      "addressRegion": "Республика Крым",
+      "addressLocality": "Феодосия",
+      "streetAddress": "улица Челнокова, 80В"
+    },
+    "sameAs": ["https://yandex.ru/maps/org/vkusnenko/93899928770/"],
+    "hasMenu": "https://yandex.ru/maps/org/vkusnenko/93899928770/menu/"
+  }
+  </script>
+  <?php wp_head(); ?>
+</head>
+<body <?php body_class(); ?>>
+  <a class="skip-link" href="#main">К содержанию</a>
+
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#top" aria-label="Кафе Вкусненько">
+        <span class="brand__mark">В</span>
+        <span><strong>Вкусненько</strong><small>Феодосия • Челнокова, 80В</small></span>
+      </a>
+
+      <nav class="nav" aria-label="Главное меню">
+        <a href="#menu">Меню</a>
+        <a href="#delivery">Доставка</a>
+        <a href="#gallery">Фото</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <a class="phone" href="tel:+79785203195">+7 978 520‑31‑95</a>
+      <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false">Меню</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container hero__grid">
+        <div>
+          <p class="eyebrow">Кафе • доставка • самовывоз</p>
+          <h1>Вкусная еда рядом — кафе «Вкусненько» в Феодосии</h1>
+          <p class="lead">Пицца 30 см, роллы, шаурма, первые блюда, паста, мясо, онигири, салаты и десерты. Позвоните, уточните наличие и оформите заказ.</p>
+          <div class="actions">
+            <a class="btn btn--primary" href="tel:+79785203195">Позвонить и заказать</a>
+            <a class="btn btn--light" href="#menu">Посмотреть меню</a>
+          </div>
+          <div class="facts" aria-label="Краткая информация">
+            <span>📍 ул. Челнокова, 80В</span>
+            <span>🥡 Еда с собой</span>
+            <span>🚚 Доставка</span>
+            <span>💳 Карта, QR, наличные</span>
+          </div>
+        </div>
+
+        <div class="hero-photo">
+          <img class="hero-photo__img" src="<?php echo $theme_uri; ?>/assets/img/photos/cafe-exterior.jpg?v=2" alt="Кафе Вкусненько, Феодосия" onerror="this.onerror=null;this.src='<?php echo $theme_uri; ?>/assets/img/fallback/exterior.svg';">
+          <div class="hero-photo__card">
+            <strong>Открыто до 22:00</strong>
+            <span>готовим для гостей в кафе, на самовывоз и доставку</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section strip" id="delivery">
+      <div class="container strip-grid">
+        <div class="strip__content">
+          <p class="eyebrow">Как заказать</p>
+          <h2>Позвоните — приготовим к вашему приезду</h2>
+          <p>Уточните наличие блюд, время приготовления и условия доставки по Феодосии. В карточке указаны доставка, еда с собой и несколько способов оплаты.</p>
+          <div class="actions">
+            <a class="btn btn--primary" href="tel:+79785203195">Заказать по телефону</a>
+            <a class="btn btn--dark" href="https://yandex.ru/maps/org/vkusnenko/93899928770/" target="_blank" rel="noopener">Открыть карту</a>
+          </div>
+        </div>
+        <div class="service-grid">
+          <article class="service service--menu"><span>1</span><i aria-hidden="true"></i><strong>Выберите блюда</strong><p>Меню ниже разделено по категориям.</p></article>
+          <article class="service service--phone"><span>2</span><i aria-hidden="true"></i><strong>Позвоните</strong><p>Телефон: +7 978 520‑31‑95.</p></article>
+          <article class="service service--bag"><span>3</span><i aria-hidden="true"></i><strong>Заберите или ждите</strong><p>Самовывоз с Челнокова, 80В или доставка.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="menu">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Меню и цены</p>
+          <h2>Витрина блюд</h2>
+          <p>Выберите блюдо и позвоните нам — подскажем наличие, время приготовления и итоговую сумму заказа.</p>
+        </div>
+
+        <div class="toolbar">
+          <label>
+            <span class="eyebrow">Поиск по меню</span>
+            <input class="search" id="search" type="search" placeholder="Например: пицца, ролл, борщ, десерт">
+          </label>
+          <div>
+            <p class="eyebrow" id="menu-count">Загрузка…</p>
+            <div class="chips" aria-label="Категории меню"></div>
+          </div>
+        </div>
+
+        <div class="menu-grid" id="menu-grid" aria-live="polite"></div>
+
+      </div>
+    </section>
+
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Фото</p>
+          <h2>Фото кафе и блюд</h2>
+          <p>Посмотрите, как выглядит кафе, витрина и десерты.</p>
+        </div>
+        <div class="gallery-grid" id="gallery-grid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="reviews">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Отзывы</p>
+          <h2>Что отмечают гости</h2>
+        </div>
+        <div class="reviews">
+          <article class="review"><p>«Всё было очень вкусно и при этом недорого»</p><span>латте и медовик</span></article>
+          <article class="review"><p>«Шаурма очень зашла»</p><span>по отзыву гостя</span></article>
+          <article class="review"><p>«Пицца просто идеальная»</p><span>по отзыву гостя</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contacts">
+      <div class="container contacts">
+        <div class="contact-card">
+          <p class="eyebrow">Контакты</p>
+          <h2>Кафе «Вкусненько»</h2>
+          <p><strong>Адрес:</strong> Республика Крым, Феодосия, улица Челнокова, 80В</p>
+          <p><strong>Ориентир:</strong> вход в кафе с задней стороны здания</p>
+          <p><strong>Телефон:</strong> <a href="tel:+79785203195">+7 978 520‑31‑95</a></p>
+          <p><strong>Оплата:</strong> наличные, карта, QR, СБП, безналичный расчёт</p>
+          <div class="actions">
+            <a class="btn btn--primary" href="tel:+79785203195">Позвонить</a>
+            <a class="btn btn--light" href="https://yandex.ru/maps/org/vkusnenko/93899928770/" target="_blank" rel="noopener">Построить маршрут</a>
+            <button class="btn btn--light" id="copy-address" type="button">Скопировать адрес</button>
+          </div>
+        </div>
+        <div class="map-card">
+          <div class="pin">📍</div>
+          <h3>Феодосия, Челнокова, 80В</h3>
+          <p class="muted">Нажмите «Построить маршрут» — откроется карта с адресом кафе.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Кафе «Вкусненько». Меню и цены уточняйте перед заказом.</p>
+      <a href="#top">Наверх ↑</a>
+    </div>
+  </footer>
+
+  <a class="floating-call" href="tel:+79785203195" aria-label="Позвонить">☎</a>
+  <div class="toast" id="toast" role="status" aria-live="polite">Адрес скопирован</div>
+
+  <script>
+    window.__VKUSNENKO_API__ = {
+      menu: "<?php echo esc_url( rest_url( 'vkusnenko/v1/menu' ) ); ?>",
+      gallery: "<?php echo esc_url( rest_url( 'vkusnenko/v1/gallery' ) ); ?>"
+    };
+  </script>
+  <script src="<?php echo $theme_uri; ?>/assets/js/app.js?v=10" defer></script>
+  <?php wp_footer(); ?>
+</body>
+</html>
+
+

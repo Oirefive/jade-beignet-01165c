@@ -1,0 +1,16 @@
+﻿{
+  "items": [
+    {
+      "title": "Вход и вывеска кафе",
+      "caption": "Кафе «Вкусненько» на Челнокова, 80В",
+      "src": "assets/img/photos/cafe-exterior.jpg?v=2",
+      "fallback": "assets/img/fallback/exterior.svg"
+    },
+    {
+      "title": "Латте и десерт",
+      "caption": "Сладкое к кофе и с собой",
+      "src": "assets/img/photos/dessert-latte.jpg",
+      "fallback": "assets/img/fallback/dessert.svg"
+    }
+  ]
+}

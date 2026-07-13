@@ -1,0 +1,16 @@
+{
+  "name": "Кафе Вкусненько — Феодосия",
+  "short_name": "Вкусненько",
+  "description": "Кафе Вкусненько в Феодосии: меню, доставка, контакты.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff7ec",
+  "theme_color": "#b6451e",
+  "icons": [
+    {
+      "src": "assets/img/logo.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ]
+}
